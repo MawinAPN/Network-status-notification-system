@@ -15,7 +15,7 @@ def update_firebase():
 	i = 1
 	while i < 6:
 	 firebase.post('/TEST',i)
-	i += 1
+	 i += 1
 
 while True:
 		update_firebase()
