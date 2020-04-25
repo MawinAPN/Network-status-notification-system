@@ -1,14 +1,6 @@
 # Network-status-notification-system
 Network status notification system
 
-from time import sleep
-import datetime
-from firebase import firebase
-import urllib2, urllib, httplib
-import json
-import os
-from functools import partial
-import time;
 
 firebase = firebase.FirebaseApplication('ใส่ URL Firebase ที่นี่', None) # URL Firebase
 def update_Status():
